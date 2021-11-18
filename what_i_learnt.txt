@@ -1,0 +1,6 @@
+today  (18-11)
+ctrl + / to comment out code
+'''     ''' for multi line comment
+alt + shift + click for multi line functionality and end to go to end
+
+if you want to print multiple lines use triple quotes '''       '''
