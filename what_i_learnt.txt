@@ -4,3 +4,14 @@ ctrl + / to comment out code
 alt + shift + click for multi line functionality and end to go to end
 
 if you want to print multiple lines use triple quotes '''       '''
+
+19-11
+
+1.Things one needs to become expert in programming language
+2. Data Types in python
+3. type function
+4. Correct method of naming variables
+5.a , b, c = 1, 2, 3
+6. augmented assignment operator
+7. type conversion
+8. Escape sequences \t and \n too
