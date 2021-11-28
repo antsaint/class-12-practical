@@ -25,13 +25,50 @@
 # friends.sort()
 # print(friends)
 
-import random
-random_number = random.randint(1, 101)
-guess = input("Choose a number from 1 to 100: ")
-try:
-    if int(guess) == random_number:
-        print("Bravo")
-    else:
-        print("No good")
-except ValueError:
-    print('only integers allowed')
+# import random
+# random_number = random.randint(1, 101)
+# guess = input("Choose a number from 1 to 100: ")
+# try:
+#     if int(guess) == random_number:
+#         print("Bravo")
+#     else:
+#         print("No good")
+# except ValueError:
+#     print('only integers allowed')
+
+# dictionary = {
+#     'basket' : [100, 200, 300],
+#     'brie' : 5,
+#     'c' : 'hello'
+# }
+
+# print(dictionary.get('cd', 100))
+
+# from random import randint
+# my_list = [1,2,3,4,5,5]
+# print(my_list[randint(0, 6)])
+# def gamer():
+#     x = 0
+#     while x < 5:
+#         print(null)
+#         x += 1
+
+# my_list = [1,2,3,4]
+# count = 0
+# for item in my_list:
+#     count += item
+    
+# print(count)
+# range()
+# pass
+
+# exercise to check for duplicates in the list
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+duplicates = []
+for item in some_list:
+    if some_list.count(item) > 1:
+        if item not in duplicates:
+            duplicates.append(item)
+
+print(duplicates)
+
